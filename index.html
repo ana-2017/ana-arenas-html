@@ -2,50 +2,133 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>index.html</title>
+    <title>bootstrap</title>
+    <meta name="viewport" content="width=device-width user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <header id="encabezado">
-      <svg>
-        <image xlink:href="img/descarga.svg" width="200px" height="150px">
-      </svg>
-      <h1>HOJA DE VIDA</h1>
-      <h2>Datos Personales</h2>
-      <h3>Ana Luisa Arenas-20-dic-1979- Distrito Federal</h3>
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 colo-md-12 col-sm-12">
+              <img class="logo pull-lefth"src="img/logo.png">
+          </div>
+        </div>
+        <div class='redes-sociales pull-right'>
+          <a class="btn btn-twitter" href="https://twitter.com/?lang=es">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="btn btn-facebook" href="https://www.facebook.com/">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="btn btn-github" href="https://github.com/">
+            <i class="fa fa-github"></i>
+          </a>
+          <a class="btn btn-google" href="https://gmail.com">
+            <i class="fa fa-google"></i>
+          </a>
+          <a class="btn btn-dropbox" href="https://www.dropbox.com/es/">
+            <i class="fa fa-dropbox"></i>
+          </a>
+        </div>
+      </div>
     </header>
-    <nav id="menu-navegacion">
-      <ul >
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="educacion.html">Educacion</a></li>
-        <li><a href="experiencia.html">Experiencia</a></li>
-      </ul>
+    <nav class="navbar align-justifice">
+      <div class="container">
+        <div class="row" style="c">
+          <div class="btn col-lg-2 colo-md-2 col-sm-2 col-xs-12">
+            <a href="#">Inicio </a>
+          </div>
+          <div class="btn col-lg-2 colo-md-2 col-sm-2 col-xs-12">
+            <a href="#">Artistas</a>
+          </div>
+          <div class="btn col-lg-2 colo-md-2 col-sm-2 col-xs-12">
+            <a href="#">Grupos</a>
+          </div>
+          <div class="btn col-lg-2 colo-md-2 col-sm-2 col-xs-12">
+            <a href="#">Top 10</a>
+          </div>
+          <div class="btn col-lg-2 colo-md-2 col-sm-2 col-xs-12">
+            <a href="#">Letras</a>
+          </div>
+          <div class="btn col-lg-2 colo-md-12 col-sm-1 col-xs-12">
+            <a href="#">Acordes</a>
+          </div>
+        </div>
+      </div>
     </nav>
-    <section id="seccion">
-      <h2>Informacion Personal</h2>
-      <img src="img/mujeres.jpg"  width="300px" height="250px">
-      <ul>
-        <li>Nombre:Ana Luisa</li>
-        <li>Edad:45años</li>
-      </ul>
-      <h2>Perfil</h2>
-      <ul>
-        <li>Experto en resolver conflictos comerciales y muy hábil para desarrollar estrategias comerciales.</li>
-        <li>TSU.Multimedia</li>
-        <li>Español</li>
-        <li>Ingles</li>
-      </ul>
-
+    <section class="main container bg-info">
+      <br>
+      <div class="row">
+        <section class="post col-md-9">
+          <div class="artista">
+            <ol class="breadcrumb">
+              <li class="active">inicio</li>
+              <li><a href="#">articulo</a></li>
+              <li><a href="#">letra</a></li>
+            </ol>
+          </div>
+          <article class="articulo clearfix">
+            <a href="#" class="thumb pull-right">
+              <img class="img-thumbnail"src="img/mago1.jpg">
+            </a>
+            <h2 class="articulo-titulo">Mago de Oz y su Historia</h2>
+            <p class="articulo-contenido text-justify">
+              Mägo de Oz es una banda española de folk metal fundada el 7 de julio de 1988 por el baterista Txus di Fellatio en el barrio de Begoña de Madrid. Inicialmente se llamó "Transilvania" en honor a Iron Maiden, adoptando el nombre definitivo de Mägo de Oz en 1989.<br>
+              Desde sus inicios se caracterizaron por su heterogénea y peculiar propuesta musical de mezclar el sonido del metal y hard rock tradicional con el de otros estilos tan dispares como la música clásica, el rock and roll, el blues, la música celta y la música folk entre otros. Sin embargo, la música celta es la que más ha predominado en el sonido de sus canciones hasta la actualidad.<br>
+              Consagrados como una de las bandas más importantes del heavy metal español, saltaron al éxito en 1998 con el disco La leyenda de la Mancha, llegando a las listas de éxitos musicales de España con canciones como «Molinos de viento» o «Fiesta pagana», esta última de su primer disco conceptual doble, Finisterra.<br>
+            </p>
+          </article>
+          <article class="articulo clearfix">
+            <a href="#" class="thumb pull-left">
+              <img class="img-thumbnail"src="img/universo2.jpg" alt="">
+            </a>
+            <h2 class="articulo-titulo">La teoría del Big Bang explica cómo se formó</h2>
+            <p class="articulo-contenido text-justify">
+              Dice que hace unos 13.700 millones de años la materia tenía una densidad y una temperatura infinitas. Hubo una explosión violenta y, desde entonces, el universo va perdiendo densidad y temperatura.
+              El Big Bang es una singularidad, una excepción que no pueden explicar las leyes de la física. Podemos saber qué pasó desde el primer instante, pero el momento y tamaño cero todavía no tienen explicación científica.
+              Desde sus orígenes, la especie humana ha observado el cielo. Primero, directamente, después con telescopios cada vez más potentes. Ahora, con muchos medios electrónicos.
+            </p>
+          </article>
+        </section>
+        <aside class="col-md-3 hidden-xs hidden-sm">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <i class="fa fa-search" aria-hidden="true"></i><input type="text" class="form-control" placeholder="Buscar">
+            </div>
+            <button type="submit" class="btn btn-default">Busca</button>
+          </form>
+          <h4>Categorias</h4>
+          <div class="list-grup">
+            <a href="#" class="list-group-item">Diseño web</a>
+            <a href="#" class="list-group-item">css</a>
+            <a href="#" class="list-group-item">java script</a>
+            <a href="#" class="list-group-item">Elementos</a>
+            <a href="#" class="list-group-item">Bootstrap</a>
+          </div>
+          <h4>Articulos Recientes</h4>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Proyecto con HTML5 con Bootstrop</h4>
+            <p class="list-group-item-text"> Bootstrap se puede descargar de dos maneras, compilado o mediante el código fiente original. Dependiendo de la forma que hayas elegido, verás una estructura de directorios u otra.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Proyecto con HTML5 con Bootstrop</h4>
+            <p class="list-group-item-text"> Bootstrap se puede descargar de dos maneras, compilado o mediante el código fiente original. Dependiendo de la forma que hayas elegido, verás una estructura de directorios u otra.</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Proyecto con HTML5 con Bootstrop</h4>
+            <p class="list-group-item-text"> Bootstrap se puede descargar de dos maneras, compilado o mediante el código fiente original. Dependiendo de la forma que hayas elegido, verás una estructura de directorios u otra.</p>
+          </a>
+        </aside>
+      </div>
     </section>
-    <footer id="pie-pagina">
-      <h4>© Derechos Reservados</h4>
-      <ul>
-        <li><strong>e-mail:</strong> e-mail:<a href="analuisacoach7@gmail.com">analuisacoach7@gmail.com</a></li>
-        <li><strong>tel: </strong> 5566806703</li>
-        <li><strong>direccion: </strong>calle. sabadales #203</li>
-      </ul>
-    </footer>
+    <footer> Ana Luisa Arenas 2017</footer>
 
 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/6ba954b819.js"></script>
   </body>
 </html>
