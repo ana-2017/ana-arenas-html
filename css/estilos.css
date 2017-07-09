@@ -1,0 +1,52 @@
+body{
+  background: #AED6F1;
+}
+.navbar{
+  margin-top: 0px;
+  background: #85C1E9;
+
+}
+.jumbotron{
+  background: #EBF5FB;
+  color: #fff;
+  padding: 20px 0;
+}
+.logo{
+  width:20%;
+  height: 20%;
+}
+.titulo{
+  width: 40%;
+}
+.main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.articulo{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #999;
+}
+.articulo .articulo-titulo{
+  color: #333;
+}
+.articulo .thumb{
+  margin-right: 10px;
+  width: 40%;
+}
+.articulo .thumb img{
+  width: 100%;
+
+}
+@media screen and (max-width:728px) {
+  .post .thumb {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+
+  }
+}
+#img1{
+  height: 50px;
+  width: 50px;
+}
